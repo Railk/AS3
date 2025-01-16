@@ -1,0 +1,1 @@
+/*** *  ICommande* * @author Richard Rodney* @version 0.1*/package railk.as3.pattern.mvc.interfaces{	public interface INotifier	{		function sendNotification( note:String, info:String='', data:Object=null ):void;	}}
